@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="hook.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="memory.cpp" />
+    <ClCompile Include="globalvar.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="definitions.h" />
+    <ClInclude Include="hook.h" />
+    <ClInclude Include="memory.h" />
+    <ClInclude Include="skStr.h" />
+    <ClInclude Include="nt_defines.hpp">
+      <Filter>CODECAVE</Filter>
+    </ClInclude>
+    <ClInclude Include="memory_utils.hpp">
+      <Filter>CODECAVE</Filter>
+    </ClInclude>
+    <ClInclude Include="codecave.hpp">
+      <Filter>CODECAVE</Filter>
+    </ClInclude>
+    <ClInclude Include="globalvar.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Inf Include="1STDRIVER.inf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CODECAVE">
+      <UniqueIdentifier>{97577e64-7ca3-4e71-b6c9-a6a0ee933317}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
